@@ -1,0 +1,1 @@
+favi	Contains the favicons for the site
