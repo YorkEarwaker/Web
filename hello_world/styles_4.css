@@ -1,0 +1,22 @@
+/* hello world 4 css */
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f4f4f4;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	margin: 0;
+}
+
+.fade-text {
+	text-align: center;
+}
+
+#greeting {
+	font-size: 4rem;
+	color: #444;
+	opacity: 1;
+	transition: opacity 4s ease-in-out;
+}
