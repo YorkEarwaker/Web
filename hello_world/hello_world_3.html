@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Hello World to console</title>
+		<!-- in page javascript is not good practice for production code -->
+		<script>
+			<!-- default write to the console -->
+			<!-- write to the console in dev tools -->
+			<!-- open dev tools to see output in console -->
+			<!-- open dev tools to see output in console -->
+			console.time(); // start time 
+			console.log("log - 1st Hello World!"); // fundamental debugging tool in javascript
+			setTimeout(() => console.log("log - 2nd Hello World!"), 0) // Chrome, force message to appear
+			// if the expression evaluates to false the message is written to the console
+			console.assert(1 + 1 == 3, "assert1 - Hello World!"); // two arguments, expression, lable
+			console.assert(false, "assert2 - Hello World!"); // two arguments, expression, lable
+			console.groupCollapsed("levels"); // group 1
+			console.debug("debug - Hello World!"); // debug message
+			console.info("info - Hello World!"); // info message
+			console.warn("warn - Hello World!"); // warn message
+			console.error("error - Hello World!"); // error message 
+			console.groupEnd(); // group 1 end
+			console.group("tables"); // group 2
+			console.table("He", "ll", "o", "Wo", "r", "ld", "!"); // english
+			console.table("Ho", "l", "a", "Mu", "n", "do", "!"); // spanish
+			console.table("Sa", "lut", "le", "m", "o", "nd", "!");// french
+			console.table("Ha", "ll", "o", "W", "e", "lt", "!");// german
+			console.groupEnd(); // group 2 end
+			console.timeEnd(); // end time
+		</script>
+	</head>
+	<body>
+		<!-- content goes here -->
+		Open the dev tools console to see message.
+	</body>
+</html>
