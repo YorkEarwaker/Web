@@ -4,7 +4,7 @@ World Wide Web related things.
 
 Starting with; html, css, js,
 
-Object Relational Mapping is an anti pattern. The problem of the object relational mapping mismatch. The problem of obsfucation.  The problem of tight coupling. The problem of low cohesion. The problem of vendor lock in. The problem of missing interaction layer. 
+Object Relational Mapping is an anti pattern. The problem of the object relational mapping mismatch. The problem of obsfucation.  The problem of tight coupling. The problem of low cohesion. The problem of vendor lock in. The problem of missing interaction layer. The problem of separation of concern.
 
 <todo: Frameworks, Java, Javascript, Python, >
 
