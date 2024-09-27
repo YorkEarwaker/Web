@@ -8,6 +8,8 @@ Object Relational Mapping is an anti pattern. The problem of the object relation
 
 <todo: Frameworks, Java, Javascript, Python, >
 
-<todo: not. Django, Python, MVT, ORM, >
+<todo: ~ & ! & ¬, Django, Python, MVT, ORM, >
 
-
+References
+* Cohesion (computer science), [WP](https://en.wikipedia.org/wiki/Cohesion_(computer_science))
+* Coupling (computer science), WP
